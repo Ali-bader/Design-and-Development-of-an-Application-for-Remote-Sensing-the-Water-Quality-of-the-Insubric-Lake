@@ -6,13 +6,13 @@ The docker composition presented in this repository aims to support the continue
 First, install Xming Server. The Virtual Machine is composed inside a Docker container. Then, to build the processing environment, install Docker in your system. Follow the instructions presented in https://docs.docker.com/get-docker/ for your working OS.
 ## Setup Environment
 1. Clone the project.
-# Clone the repository
+## Clone the repository
 git clone https://github.com/Ali-bader/Design-and-Development-of-an-Application-for-Remote-Sensing-the-Water-Quality-of-the-Insubric-Lake/tree/main
-# Move to the location of the cloned project.
+## Move to the location of the cloned project.
 1. Open the "docker-compose.yml" file. then, change the DISPLAY environment variable to your IP address.
 ## Build the VM docker container.
-# Build the Image
+### Build the Image
 docker-compose build
-# Run the container
+### Run the container
 docker-compose up -d
 
